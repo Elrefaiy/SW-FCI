@@ -1,0 +1,92 @@
+body{
+  background:url(../images/Background.jpg) ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-light {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: black;
+  margin-left: 80px;
+  border-bottom: 3px  rgb(162, 191, 255) solid ;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 15px;
+  margin: 0px 15px;
+  border-bottom: 3px  rgb(162, 191, 255) solid ;
+  font-family:Arial Rounded MT;
+}
+
+h3{
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0,.7);
+}
+
+table{
+  width: 1100px;
+  height: 300px;
+  margin-left:10%;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255,.4);
+  box-shadow: 2px 2px 12px rgb(0, 0, 0,.2) , -1px -1px 8px rgb(0, 0, 0,.2) ;
+}
+th{
+  text-align: center;
+  border-bottom:2px solid royalblue;
+  border-top:2px solid royalblue;
+
+}
+td{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px auto;
+  text-align: left;
+  border-bottom:1px solid rgb(70, 113, 243,.5);
+}
+#header{
+  background-color: rgb(104, 157, 255);
+  color: #fff;
+  font-size: 17px;
+}
+
+
+.row{
+display: flex;
+flex-wrap: wrap;
+
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background: white;
+  padding: 50px 0px;
+  margin-top: 70px;
+  opacity: 0.7;
+}
+.col{
+  width: 25%;
+  padding: 0 15px;
+}
+.col h2{
+margin:0 0 20px 30px;
+font-size: 25px;
+font-weight: bold;
+position: relative;
+text-transform: capitalize;
+}
+.col ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}

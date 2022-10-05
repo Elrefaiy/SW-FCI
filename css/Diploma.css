@@ -1,0 +1,108 @@
+body{
+  background:url(../images/Background.jpg) ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-light {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: black;
+  margin-left: 80px;
+  border-bottom: 3px  rgb(162, 191, 255) solid ;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 15px;
+  margin: 0px 15px;
+  border-bottom: 3px  rgb(162, 191, 255) solid ;
+  font-family:Arial Rounded MT;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family:Arial Rounded MT;
+  color: rgb(0, 0, 0,.7);
+}
+
+.Rform {
+  background: rgb(255, 255, 255,0.9);
+  padding: 30px 40px;
+  text-align: right;
+}
+
+input[type=text], input[type=password] {
+  background: rgba(65, 105, 225, 0.082);
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  margin: 5px 0px 20px 0px;
+  border: none;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(65, 105, 225, 0.274);
+
+}
+
+.registerbtn {
+  background-color: rgb(119, 161, 252) ;
+  padding: 5px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-right: 60px;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+.registerbtn:hover {
+  background-color: rgb(63, 124, 255) ;
+  color: white;
+}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background: white;
+  padding: 50px 0px;
+  margin-top: 70px;
+  opacity: 0.7;
+}
+.col{
+  width: 25%;
+  padding: 0 15px;
+}
+.col h2{
+margin:0 0 20px 30px;
+font-size: 25px;
+font-weight: bold;
+position: relative;
+text-transform: capitalize;
+}
+.col ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
